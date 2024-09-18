@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+    <meta charset = "UTF-8">
+    <meta name = "viewport" content = "width=device-width, initial-scale = 1.0">
+    <title>REGISTRATION FORM</title>
+</head>
+<body>
+    <h1><u>MICROSOFT REGISTRATION FORM</u></h1>
+    <p>Welcome to Microsoft registeration page. We are exicted to join our community. Enter the following information to get yourself started.</p>
+    <form enctype="multipart/form-data">
+        <label for="surname">
+            Enter your Surname:
+        </label>
+        <br> 
+        <input type="text" id="surname" name="surname" placeholder="Input Surname here" required>
+        <br>
+        <br>
+        <label for="firstname">
+            Enter your Firstname:
+        </label>
+        <br>
+        <input type="text" id="firstname" name="firstname" placeholder="Input first name here" required>
+        <br>
+        <br>
+        <label for="email">
+            Email:
+        </label>
+        <br>
+        <input type="email" required id="email" name="email" placeholder="Input email here">
+        <br>
+        <br>
+        <label for="username">
+            Username:
+        </label>
+        <br>
+        <input type="username" required id="username" name="username" placeholder="Input username here">
+        <br>
+        <br>
+        <label for="password">
+            Password:
+        </label>
+        <br>
+        <input type="password" required id="password" name="password" placeholder="Input password here">
+        <br>
+        <br>
+        <label for="biography">
+            Bio:
+        </label>
+        <br>
+        <textarea id="biography" name="bio" placeholder="Tell us a little about you" rows="5" cols="30"></textarea>
+        <br>
+        <br>
+        <label>
+            Gender
+        </label>
+        <br>
+        <label>
+            <input type="radio" name="gender" value="male">
+            Male
+        </label>
+        <br>
+        <label>
+            <input type="radio" name="gender" value="female">
+            Female
+        </label>
+        <br>
+        <br>
+        <label for = "dob">
+            Date of Birth:
+        </label>
+        <input type="date" name = "dob" value = "dob">
+        <br>
+        <br>
+        <label for="age">
+            Age:
+        </label>
+        <input type = "number" min = "16" max = "35" step = "1">
+        <br>
+        <br>
+        <label for="phoneNumber">
+            Phone Number:
+        </label>
+        <input type="number" id ="phoneNumber" name = "phonenumber" placeholder = "e.g xxxx-xxx-xxx">
+        <br>
+        <br>
+        <label for="country">
+            State of Origin:
+        </label>
+        <select name="state" id="state">
+            <option value="">---Select option---</option>
+            <option value="abia">Abia</option>
+            <option value="abuja">Abuja</option>
+            <option value="adamawa">Adawama</option>
+            <option value="akwa">Akwa Ibom</option>
+            <option value="anambra">Anambra</option>
+            <option value="bauchi">Bauchi</option>
+            <option value="bayelsa">Bayelsa</option>
+            <option value="benue">Benue</option>
+            <option value="borno">Borno</option>
+            <option value="c.river">Cross River</option>
+            <option value="delta">Delta</option>
+            <option value="ebonyi">Ebonyi</option>
+            <option value="edo">Edo</option>
+            <option value="ekiti">Ekiti</option>
+            <option value="enugu">Enugu</option>
+            <option value="gombe">Gombe</option>
+            <option value="imo">Imo</option>
+            <option value="jigawa">Jigawa</option>
+            <option value="kaduna">Kaduna</option>
+            <option value="kano">Kano</option>
+            <option value="katsina">Katsina</option>
+            <option value="kebbi">Kebbi</option>
+            <option value="kogi">Kogi</option>
+            <option value="kwara">Kwara</option>
+            <option value="lagos">Lagos</option>
+            <option value="nasarawa">Nasarawa</option>
+            <option value="niger">Niger</option>
+            <option value="ogun">Ogun</option>
+            <option value="ondo">Ondo</option>
+            <option value="osun">Osun</option>
+            <option value="oyo">Oyo</option>
+            <option value="plateau">Plateau</option>
+            <option value="rivers">Rivers</option>
+            <option value="sokoto">Sokoto</option>
+            <option value="taraba">Taraba</option>
+            <option value="yobe">Yobe</option>
+            <option value="zamfarawa">Zamfarawa</option>
+        </select>
+        <br>
+        <br>
+        <label>
+        Area of Interest:
+        </label>
+        <br>
+        <label>
+            <input type="checkbox" name="interest" value="software">
+            Software Engineering
+        </label>
+        <br>
+        <label>
+            <input type="checkbox" name="interest" value="d.analysis">
+            Data Analysis
+        </label>
+        <br>
+        <label>
+            <input type="checkbox" name="interest" value="photo">
+            Photography
+        </label>
+        <br>
+        <label>
+            <input type="Checkbox" name="interest" value="d.marketing">
+            Digital Marketing
+        </label>
+        <br>
+        <br>
+        <label for = "files">
+            Upload Files:
+        </label>
+        <br>
+        <input type="file" id="files" name="UploadFiles" multiple>
+        <br>
+        <br>
+        <input type="submit" value="Click here to submit">
+    </form>
+</body>
+</html>
